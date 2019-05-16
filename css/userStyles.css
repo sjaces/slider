@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab);
+body {
+    background: black;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#counter {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 30px;
+    font-size: 20px;
+    color: #e7a72e;
+    text-align: center
+}
+
+#categoryURL {
+    display: inline-block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    font-size: 1em;
+    font-family: 'Roboto Slab', sans-serif;
+    color: #e7a72e;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0.5em 1em;
+    margin: 0;
+    text-decoration: none;
+    z-index: 1000;
+    font-weight: bold;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 375px;
+}
+
+.swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+
+.swiper-slide>img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    top: 0;
+    left: 0;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 5px;
+    color: white;
+}
+
+.abajo-derecha {
+    bottom: 20px;
+    right: 20px;
+    left: unset !important;
+    top: unset !important;
+}
+
+.arrow {
+    background: rgba(0, 0, 0, 0.5);
+    background-image: url("../images/arrow.png");
+    top: 0px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    z-index: 20;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.swiper-pagination-bullet {
+    width: 1rem;
+    height: 1rem
+}
+
+.swiper-button-prev-v {
+    background-image: url("https://image.flaticon.com/icons/svg/25/25223.svg");
+    top: 20px;
+    left: 50%;
+}
+
+.swiper-button-next-v {
+    background-image: url("https://image.flaticon.com/icons/svg/118/118738.svg");
+    bottom: 20px;
+    left: 50%;
+}
+
+.swiper-button-prev-v .swiper-button-next-v {
+    position: absolute;
+    top: 50%;
+    width: 27px;
+    height: 44px;
+    margin-top: -22px;
+    z-index: 15;
+    cursor: pointer;
+    background-size: 27px 44px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#link {
+    display: inline-block;
+    margin: 0;
+    padding: 0 5px;
+}
+
+a.disabled {
+    pointer-events: none;
+}
