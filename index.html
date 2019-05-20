@@ -1,58 +1,54 @@
 <!DOCTYPE html>
-<html lang="es-ES">
+<html lang="en-EN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>slider</title>
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/userStyles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <title>slider</title>
-  <link rel="stylesheet" href="css/swiper.css" />
-  <link rel="stylesheet" href="css/userStyles.css" />
-</head>
+  <body>
+    <!-- Slider main container -->
+    <div class="swiper-container swiper-container-h" id="slider01">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide" category="category1" url="#">
+          <img src="images/slide01.jpg" alt="" />
+        </div>
+        <div class="swiper-slide" category="category2" url="">
+          <img src="images/slide02.jpg" alt="" />
+        </div>
+        <div class="swiper-slide" category="category3" url="#">
+          <img src="images/slide03.jpg" alt="" />
+        </div>
+        <div class="swiper-slide" category="category4" url="">
+          <img src="images/slide04.jpg" alt="" />
+        </div>
+        <div class="swiper-slide" category="">
+          <img src="images/slide05.jpg" alt="" />
+        </div>
+      </div>
 
-<body>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination swiper-pagination-h"></div>
 
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev swiper-button-prev-h"></div>
+      <div class="swiper-button-next swiper-button-next-h"></div>
 
-  <!-- Slider main container -->
-  <div class="swiper-container swiper-container-h" id="slider01">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div class="swiper-slide" category="category1" url="#">
-        <img src="images/slide01.jpg" alt="" />
-      </div>
-      <div class="swiper-slide" category="category2" url="#">
-        <img src="images/slide02.jpg" alt="" />
-      </div>
-      <div class="swiper-slide" category="category3" url="">
-        <img src="images/slide03.jpg" alt="" />
-      </div>
-      <div class="swiper-slide" category="category4" url="">
-        <img src="images/slide04.jpg" alt="" />
-      </div>
-      <div class="swiper-slide" category="">
-        <img src="images/slide05.jpg" alt="" />
-      </div>
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar swiper-scrollbar-h"></div>
     </div>
+    <div id="counter">1</div>
+    <a id="categoryURL" href="" target="_blank">
+      <span id="displayCategory"></span>
+      <img id="link" src="images/link.svg" alt="link" />
+    </a>
 
-    <!-- If we need pagination -->
-    <div class="swiper-pagination swiper-pagination-h"></div>
+    <!-- <script src="js/swiper.esm.js"></script> -->
 
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev swiper-button-prev-h"></div>
-    <div class="swiper-button-next swiper-button-next-h"></div>
-
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar swiper-scrollbar-h"></div>
-  </div>
-  <div id="counter">1</div>
-  <a id="categoryURL" href="" target="_blank">
-    <span id="displayCategory"></span>
-    <img id="link" src="images/link.svg" alt="link" />
-  </a>
-
-  <!-- <script src="js/swiper.esm.js"></script> -->
-
-  <script src="js/swiper.js"></script>
-  <script src="js/initSlider.js"></script>
-</body>
-
+    <script src="js/swiper.min.js"></script>
+    <script src="js/initSlider.js"></script>
+  </body>
 </html>
