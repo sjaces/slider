@@ -1,0 +1,44 @@
+{
+  "slides": [
+    {
+      "category": "category01",
+      "url": "",
+      "imgSrc": "images/slide01.jpg"
+    },
+    {
+      "category": "category02",
+      "url": "#",
+      "imgSrc": "images/slide02.jpg"
+    },
+    {
+      "category": "category03",
+      "url": "#",
+      "imgSrc": "images/slide03.jpg"
+    },
+    {
+      "category": "category04",
+      "url": "#",
+      "imgSrc": "images/slide03.jpg"
+    },
+    {
+      "category": "category05",
+      "url": "",
+      "imgSrc": "images/slide03.jpg"
+    },
+    {
+      "category": "category06",
+      "url": "#",
+      "imgSrc": "images/slide03.jpg"
+    },
+    {
+      "category": "category07",
+      "url": "",
+      "imgSrc": "images/slide03.jpg"
+    },
+    {
+      "category": "",
+      "url": "",
+      "imgSrc": "images/slide03.jpg"
+    }
+  ]
+}
